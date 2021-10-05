@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* *****common***** */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center;
+    float: left;
+}
+
+/* *****navbar***** */
+.menu {
+    text-align: right;
+    height: 100px;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ .menu nav ul li {
+    display: inline-block;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.menu nav ul li{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin:0 20px;
+}
+
+
+
+/* *****debug***** */
+.menu.debug{
+    background-color: blueviolet;
+}
+
