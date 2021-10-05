@@ -54,20 +54,20 @@ body {
     background-position: center;
     padding: 100px;
 }
+
 .quote{
     width: 50%;
     margin: 0 auto;
     text-transform: uppercase;
+  font-size: 400%;
+
+}
+.quote-y{
     color: yellow;
-    font-size: 400%;
 
 }
 .quote-g{
-    width: 50%;
-    margin: 0 auto;
-    text-transform: uppercase;
     color: green;
-    font-size: 400%;
 
 }
 
@@ -81,7 +81,7 @@ body {
     background-color: yellow;
 }
 /* *****debug***** */
-.menu.debug{
+/* .menu.debug{
     background-color: blueviolet;
-}
+} */
 
