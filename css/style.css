@@ -62,11 +62,24 @@ body {
     font-size: 400%;
 
 }
+.quote-g{
+    width: 50%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: green;
+    font-size: 400%;
+
+}
 
 #differente{
     background-color: red;
 }
-
+#tommy{
+    background-color: green;
+}
+#converse{
+    background-color: yellow;
+}
 /* *****debug***** */
 .menu.debug{
     background-color: blueviolet;
